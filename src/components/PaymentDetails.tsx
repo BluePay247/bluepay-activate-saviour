@@ -158,7 +158,7 @@ const PaymentDetails: React.FC = () => {
           
           <div>
             <label className="block text-sm font-medium mb-1">Amount</label>
-            <Input value="20,000 naira" readOnly className="bg-gray-50" />
+            <Input value="15,000 naira" readOnly className="bg-gray-50" />
           </div>
           
           <div>
