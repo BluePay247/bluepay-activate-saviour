@@ -81,7 +81,7 @@ const PaymentDetails: React.FC = () => {
             </div>
             <DialogTitle className="text-xl text-red-500 font-bold">Opay and all others supported banks are working perfectly.</DialogTitle>
             <DialogDescription className="text-gray-600 mt-2">
-              Please do not use Opay bank for payments at this time.
+              All banking services including opay are now fully operational and available for your payment.
             </DialogDescription>
             
             <div className="bg-red-50 border border-red-200 rounded-md p-4 mt-4 mb-4 w-full">
